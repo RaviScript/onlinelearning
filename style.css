@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://usersnap.com/blog/wp-content/uploads/2017/04/web-design-background.png);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.c1{
+    background-color:green;
+    text-align: center;
+}
+.c1 ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+
+}
+.c1 ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+.c1 ul li a{
+text-decoration: none;
+color: white;
+}
+ .c1 ul li :hover
+{
+    background: blueviolet;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+border-radius: 5px;
+color: white;
+transition: all 0.2s;
+outline: none;
+
+
+    
+}
+
+
+.content{
+    padding:40px 5% ;
+    justify-content: space-between;
+    color: white;
+    
+
+}
+.c2{
+    margin: 45px 0;
+    font-weight: 400;
+    
+    
+}
+.p{
+    line-height: 3;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.c3{
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.c4{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.btn{
+    display: block;
+    margin-top: 10%;
+    padding: 16px 30px;
+    font-size: 15px;
+    display: block;
+    background: green;
+    color: black;
+    outline: none;
+    border-radius: 30px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: solid 1px;
+}
+.btn:hover {
+     background:white;
+}
+
+
+
+
